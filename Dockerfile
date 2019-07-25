@@ -1,4 +1,4 @@
-FROM baalajimaestro/rom_builder:latest
+FROM baalajimaestro/android_build:latest
 
 RUN bash runner.sh
 USER ci
